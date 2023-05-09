@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
 import img from '../assets/Images/20201008-199WaterSt-2_v1-scaled.jpg'
 import BigTitle from '../subComponents/BigTitle';

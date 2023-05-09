@@ -80,7 +80,7 @@ const Title = styled.h2`
 
 const Description = styled.div`
   color: ${props => props.theme.text};
-  font-size: calc(0.6em + 1vw);
+  font-size: calc(0.2em + 1vw);
   padding: 0.5rem 0;
 
   ${Main}:hover &{

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Facebook, Github, Instagram, YouTube } from '../components/AllSvgs';
+import {Github, Instagram, LinkedIn, YouTube } from '../components/AllSvgs';
 import styled from 'styled-components'
 import { darkTheme } from '../components/Themes'
 import { motion } from 'framer-motion';
@@ -69,7 +69,7 @@ const SocialIcons = (props) => {
       transition={{type: 'spring', duration: 1, delay: 1.6}}
       >
         <NavLink style={{color:'inherit'}} target="_blank" to={"//www.facebook.com/eduardo.lugo.180/"}>
-          <Facebook width={25} height={25} fill={window.innerWidth < 798 ? props.theme === "dark" ? darkTheme.text : darkTheme.body :props.theme === "dark" ? darkTheme.text : darkTheme.body} />
+          <LinkedIn width={25} height={25} fill={window.innerWidth < 798 ? props.theme === "dark" ? darkTheme.text : darkTheme.body :props.theme === "dark" ? darkTheme.text : darkTheme.body} />
         </NavLink>
       </motion.div>
 

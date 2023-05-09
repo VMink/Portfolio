@@ -44,7 +44,7 @@ const Main = styled.div`
   height: 60vh;
   z-index: 3;
   line-height: 1.5;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.3rem + 1vw);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   position: absolute;
@@ -52,6 +52,10 @@ const Main = styled.div`
   top: 10rem;
   font-family: 'Ubuntu Mono',monospace;
   font-style: italic;
+
+  a {
+    color: White;
+  }
 
   @media all and (max-width: 1400px) {
     font-size: calc(0.4rem + 1vw);
@@ -77,16 +81,21 @@ const About = () => {
           <img src={astronaut} alt="spaceman" />
         </Spaceman>
         <Main>
-          I'm a Software Engineer from Mexico. I studied 'Ingenieria en Tecnologías Computacionales' in Tecnológico de Monterrey. I love programming and learning. If you dream it I can program it.
+          Hi! My name is Eduardo Francisco Lugo Quintana I am currently studying Computer Science and Technology B.S. in Tecnologico de Monterrey.
+          Currently I am focused on Web Development more specifically in Front-End with React and Angular. 
           <br></br>
           <br></br>
-          I'm specialized in Cibersecurity and Full Stack Web Development. I'm an independent freelancer.
+          When I graduate I want to specialize in Cibersecurity Red Team, mostly pentesting and auditoring.
           <br></br>
           <br></br>
-          I believe that computers and software are the future; that we will live in a technological civilization. 
+          I can work perfectly under pressure, puntuality is really important to me, I consider myself a responsible person and love the teamwork. 
+          I love learning new things and I am always looking for new courses and certifications to keep improving my coding skills .
           <br></br>
           <br></br>
-          Feel free to contact me by my Contact Form or through my social media  
+          You can check all my certificates by <a href='https://drive.google.com/drive/folders/1iHS5A6NZNkvBHMFpHPYM9wkXiJGOqCXG?usp=sharing' target='_blanck' >CLICKING HERE</a>
+          <br></br>
+          <br></br>
+          Download my CV by <a href='https://drive.google.com/file/d/1sSJNFnB8mye9QQQ_mN7VWe5YbdhTCDVD/view?usp=sharing' target='_blanck'>CLICKING HERE</a>
         </Main>
         <BigTitle text="ABOUT" top="10%" left="5%" />
       </Box>
