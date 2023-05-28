@@ -67,6 +67,11 @@ const Main = styled.div`
     width: 60vw;
     font-size: calc(0.6rem + 1vw);
   }
+
+  @media all and (max-width: 450px) { 
+    height: 75vh;
+    top: 6rem;
+  }
 `
 
 const About = () => {
@@ -95,7 +100,7 @@ const About = () => {
           You can check all my certificates by <a href='https://drive.google.com/drive/folders/1iHS5A6NZNkvBHMFpHPYM9wkXiJGOqCXG?usp=sharing' target='_blanck' >CLICKING HERE</a>
           <br></br>
           <br></br>
-          Download my CV by <a href='https://drive.google.com/file/d/1sSJNFnB8mye9QQQ_mN7VWe5YbdhTCDVD/view?usp=sharing' target='_blanck'>CLICKING HERE</a>
+          Download my CV by <a href='https://drive.google.com/file/d/1llc5qbWcgphZSt_Um7kJqH9efS7Ppb8i/view?usp=sharing' target='_blanck'>CLICKING HERE</a>
         </Main>
         <BigTitle text="ABOUT" top="10%" left="5%" />
       </Box>

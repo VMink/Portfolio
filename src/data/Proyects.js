@@ -1,22 +1,30 @@
 export const Projects = [
     {
         id: 1,
+        title: "Crack The Code REST API",
+        description: "A full REST API with SQL Database and Admin Panel with Tableau and a page that hosts a Unity game exported in WebGL,",
+        tags: ["Node JS","Express JS", "SQL", "REST API", "Tableau"],
+        img: "https://raw.githubusercontent.com/VMink/GIF-OS/main/Img/CTC.png",
+        link: "//github.com/VMink/CrackTheCodeAPI.git"
+    },
+    {
+        id: 2,
         title: "Marketplace Mobile App",
         description: "A ready to deploy on Andorid and IOS mobile app (For Sale, coming soon on work section)",
-tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
+        tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
         img: "https://raw.githubusercontent.com/VMink/GIF-OS/main/Mobile%20app2.png",
         link: "//mercado-makoa-43963.web.app"
     },
     {
-    id: 2,
-    title: "Real State Landingpage",
+    id: 3,
+    title: "Real Etate Landingpage",
     description: "Real State Landingpage ready for selling and self-managed (For Sale, coming soon on work section)",
     tags: ["React","Styled Components"],
     img: "https://i.ibb.co/ChZp7Rf/House-1.jpg",
     link: "//real-estate-33fbd.web.app"
   },
   {
-    id: 3,
+    id: 4,
     title: "Netflix Clone",
     description: "Netflix Frontend Clone using React JS and TMDB",
     tags: ["React"],
@@ -24,7 +32,7 @@ tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
     link: "//netflix-clone-76dd2.web.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Zoom Clone",
     description: "Zoom Clone in the navigator, just copy the URL to join the call",
     tags: ["Node JS", "Express", "Socket Io"],
@@ -32,7 +40,7 @@ tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
     link: "//zoomcline.onrender.com"
   },
   {
-    id: 5,
+    id: 6,
     title: "Makoa Landingpage",
     description: "Fully responsive Landing page for Makoa using styled components and rect js",
     tags: ["React", "Styled-components"],
@@ -40,7 +48,7 @@ tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
     link: "//makoa-17885.web.app"
   }, 
   {
-    id: 6,
+    id: 7,
     title: "TRVL",
     description: "TRVL is a Web Template for a travel agency made with React JS",
     tags: ["React"],
@@ -48,7 +56,7 @@ tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
     link: "//vmink.github.io/Travel-agency/"
   },
   {
-    id: 7,
+    id: 8,
     title: "GIFOS",
     description: "GifOS is a system that allows the user to create, download, search and save Gif's with the Giphy Api",
     tags: ["HTML", "CSS", "Javascript", "API"],
@@ -56,7 +64,7 @@ tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
     link: "//vmink.github.io/GIF-OS/"
   },
   {
-    id: 8,
+    id: 9,
     title: "Calculator",
     description: "Simple calculator made with Vanilla Javascript with keyboard inputs support.",
     tags: ["HTML", "CSS", "Javascript"],
@@ -64,7 +72,7 @@ tags: ["Ionic","Email JS", "PWA", "Android", "IOS"],
     link: "//vmink.github.io/Calculator/"
   },
   {
-    id: 9,
+    id: 10,
     title: "Pale Blue Dot",
     description: "Technology podcast landingpage made with vanilla CSS and HTML",
     tags: ["HTML", "CSS"],
